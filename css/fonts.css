@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'dosislight';
+    src: url('../fonts/dosis-light-webfont.eot');
+    src: url('../fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-light-webfont.woff') format('woff'),
+         url('../fonts/dosis-light-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-light-webfont.svg#dosislight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('../fonts/dosis-regular-webfont.eot');
+    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-regular-webfont.woff') format('woff'),
+         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('../fonts/big_noodle_titling-webfont.eot');
+    src: url('../fonts/big_noodle_titling-webfont.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/big_noodle_titling-webfont.svg#bignoodletitlingregular') format('svg'),
+			url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+			url('../fonts/big_noodle_titling-webfont.woff') format('woff'),
+			url('../fonts/big_noodle_titling-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('../fonts/avenir.eot');
+    src: url('../fonts/avenir.eot') format('embedded-opentype'),
+			url('../fonts/avenir.svg#AvenirBook') format('svg'),
+			url('../fonts/avenir.woff2') format('woff2'),
+			url('../fonts/avenir.woff') format('woff'),
+			url('../fonts/avenir.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: url('../fonts/avenirnext.eot');
+    src: url('../fonts/avenirnext.eot') format('embedded-opentype'),
+			url('../fonts/avenirnext.svg#AvenirNextBold') format('svg'),
+			url('../fonts/avenirnext.woff2') format('woff2'),
+			url('../fonts/avenirnext.woff') format('woff'),
+			url('../fonts/avenirnext.ttf') format('truetype');
+}

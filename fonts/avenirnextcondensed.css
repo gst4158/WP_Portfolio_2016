@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AvenirNextCondensedBold';
+    src: url('avenirnextcondensed.eot');
+    src: url('avenirnextcondensed.eot') format('embedded-opentype'),
+         url('avenirnextcondensed.woff2') format('woff2'),
+         url('avenirnextcondensed.woff') format('woff'),
+         url('avenirnextcondensed.ttf') format('truetype'),
+         url('avenirnextcondensed.svg#AvenirNextCondensedBold') format('svg');
+}

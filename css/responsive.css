@@ -1,0 +1,381 @@
+/*================================================================================================*/
+/* ==================================== MEDIQ QUERIES ============================================== */
+@media (max-width: 1300px) {
+
+	/* cover */
+	#cover .textwrapper h1 {font-size: 8vw;}
+	#cover .textwrapper h1 span {font-size: 20vw;}
+	#cover .textwrapper h2 {font-size: 3.25vw;}
+
+	/* contact form */
+	#contactform > div > div {padding: 0 25px;}
+	#contactform form > section {padding: 0 15px;}
+	
+	#contactform .half {width: 100%;}
+	#contactform .half > div {float: left; width: 48%; margin-right: 2%;}
+	#contactform .half > div:last-child {margin-right: 0;}
+	#contactform .half.last-child > div {width: 100%;}
+	
+	#contactform h1 {margin-bottom: 0; font-size: 10vw;}
+	div.wpcf7-mail-sent-ok {margin: 10px 0 20px 15px; }
+
+	.single .posttype-portfolio .portwrapper.introductionwrapper { padding: 75px 5%; }
+
+}
+
+
+@media (max-width: 1024px) {
+
+	/* general typography */
+	p, pre, .subhead, #contactform input {font-size: 1rem;}
+	h1, h2, h3, h4 {font-size: 15vw;}
+	a.bnt, a div.bnt, div.bnt {font-size: 1.75rem;}
+
+	/* contact form */	
+	#contactform .half > div {float: none; width: 100%; margin: 0;}
+	#contactform .half.last-child > div {width: 100%;}
+
+	/* portfolio single */	
+	.port-wrapper {width: 50%; }
+
+		/* introduction wrapper*/
+		.single .posttype-portfolio .portwrapper.introductionwrapper { padding: 75px 0%; }
+		.introductionwrapper > .textwrapper { padding: 0 50px; }
+		.introductionwrapper .third, .introductionwrapper > .textwrapper .twothird {
+			width: 100%;
+			padding: 25px 0 0;
+			border: none;
+		}
+		.introductionwrapper .third {border-top: 3px solid #e53539; border-bottom: 3px solid #e53539;text-align: center;}
+		.introductionwrapper .third h1 {font-size: 10vw;}	
+
+		/* beauty spreads */
+		.beautywrapper h1 {font-size: 4vw;}
+		.beautywrapper h2 {font-size: 2rem;}
+
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* iPad landscape */
+@media (max-width: 960px) {
+
+	.page #cover {min-height: 250px;}
+
+	/* contact form */
+	#contactform .contactclose {right: -15px; top: -27px;}
+
+	/* portfolio single */
+		/* cover wrapper */
+		.coverwrapper {padding: 15px; background-position: center right;}
+		.coverwrapper .contentwrap {max-width: 85%; margin: 0 auto; text-align: left;}
+		.coverwrapper .decoration {margin: 0 auto; width: 100%; max-width: 90%;}
+		.coverwrapper h2 {margin-left: 0;}
+		.coverwrapper .overlay {opacity: 1;}
+		.coverwrapper.light .overlay {background: rgba(0,0,0,.65);}
+		.coverwrapper .textwrapper {
+			left: 50%;
+			text-align: center;
+			margin: auto; 
+			width: 100%;
+			max-width: 100%;
+		}
+
+		/* introduction wrapper */
+		.introductionwrapper {min-height: 100vh;}
+
+		/* website featers || services */
+		.servicewrapper {width: 50% !important; margin: 0 !important;}
+		.servicewrapper.last-child {width: 100% !important;}
+		.servicewrapper.last-child p {max-width: 500px; margin: 0 auto;}
+
+		/* portfolio footer */
+		.coverwrapper.footerholder {min-height: 25vh;}
+}
+
+/*--------------------------------------------------------------------------*/
+/* inbetween */
+@media (max-width: 900px) {
+
+	/* cover */
+	#cover .textwrapper {width: 100%;}
+	#cover .textwrapper h1 {font-size: 15vw;}
+	#cover .textwrapper h1 span {font-size: 37vw; margin-top: -20px;}
+	#cover .textwrapper h2 {font-size: 6vw; margin-top: 20px;}
+	#cover .controls {bottom: 15px;}
+	#cover .controls.down p {top: -30px;}
+	
+	/* navigation changes */	
+	nav[role="core-navigation"] ul.sociallinks li:first-child {display: none;}
+	nav[role="core-navigation"] ul.sociallinks li:after {display: none;}
+	nav[role="core-navigation"] ul.sociallinks li {margin: 0 5px;}
+
+
+	
+}
+
+/*--------------------------------------------------------------------------*/
+/* iPad portrait */
+@media (max-width: 850px) {
+
+	/* general items */
+	.pageheader .textwrapper h1 {font-size: 7vw;}
+
+	/* portfolio items */	
+	.port-wrapper .port-underlay {display: none !important;}
+	.port-wrapper .port-underlay.responsive {display: block !important;}
+	.port-wrapper .port-border {display: none;}
+	.port-wrapper .port-textwrapper {
+		width: 100%;
+		opacity: 1;
+		bottom: 0 !important;
+		background: rgba(229,53,57,.85);
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+	.port-wrapper h1 {font-size: 4vw; width: 100%; padding: 0 0 20px; }
+	.port-wrapper h4 {display: none; }
+
+	/* home page proficiencies */
+	.proficiencywrapper {
+		width: 50%;
+		padding-left: 10%;
+	}
+
+	#services .textwrapper, #proficiencies .textwrapper {padding: 25px 10px; margin-bottom: -45px;}
+
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* Start mobile Navigation */
+@media (max-width: 768px) {
+	/* navigation */
+		/* force fixed position */
+		nav[role="core-navigation"] {
+			overflow: visible;
+			-webkit-transform: scaleY(1); transform: scaleY(1) !important;
+		}
+
+		header nav[role="core-navigation"] .navwrap {
+			position: absolute;
+			top: 100%; left: -100%;
+			width: 100%;
+			background: #fff;
+			border-bottom: 1px solid #343838;
+			
+		}
+
+		header.active nav[role="core-navigation"] .navwrap {
+			left: 0%;
+		}
+
+		/* hamburger + mobile nav */
+		.hamburger {display: block;}
+		nav[role="core-navigation"] .logo {width: 100%;}
+		nav[role="core-navigation"] .logo a {color: #fff;}
+		nav[role="core-navigation"] .logo:hover:after {left: -100%;}
+		header.active .logo:after, header.active nav[role="core-navigation"] .logo:hover:after {left: calc( 0px - 60px);}
+		nav[role="core-navigation"] ul {width: 100%; top: 0 !important;}
+		
+		nav[role="core-navigation"] ul li {display: block; text-align: center; padding: 0px; margin: 0;}
+		nav[role="core-navigation"] ul li:before, nav[role="core-navigation"] ul li:after {display: none !important;}
+		
+		nav[role="core-navigation"] ul li p {display: none;}
+		nav[role="core-navigation"] ul li a {display: block; padding: 15px 0; border-top: 1px solid #343838;}
+		nav[role="core-navigation"] ul li:first-child a {border: none;}
+		nav[role="core-navigation"] ul li a:hover {background: #e53539; color: #fff;}
+		
+		nav[role="core-navigation"] ul.sociallinks {top: auto;}
+		nav[role="core-navigation"] ul.sociallinks span {display: block;}
+		nav[role="core-navigation"] ul.sociallinks li {margin: 0px;}
+		nav[role="core-navigation"] ul.sociallinks li i {display: none;}
+		
+		/* social connect links */
+		nav[role="core-navigation"] ul.sociallinks {
+			border-top: 1px solid #343838;
+			text-align: center;
+		}
+		nav[role="core-navigation"] ul.sociallinks li, nav[role="core-navigation"] ul.sociallinks li:first-child {
+			display: inline-block;
+			margin-right: 30px;
+		}
+		
+		
+		nav[role="core-navigation"] ul.sociallinks li:after {display: block !important;}
+		nav[role="core-navigation"] ul.sociallinks li:last-child:after {display: none !important;}
+		
+		nav[role="core-navigation"] ul.sociallinks li.nohover:after {top: -4px;}
+		nav[role="core-navigation"] ul.sociallinks li:not(.nohover):after {top: 14px;}
+		
+		nav[role="core-navigation"] ul.sociallinks li p, nav[role="core-navigation"] ul.sociallinks li a {font-size: .6rem;}
+		nav[role="core-navigation"] ul.sociallinks li p {display: block;}
+		nav[role="core-navigation"] ul.sociallinks li a {border: none;}
+		nav[role="core-navigation"] ul.sociallinks li a:hover {background: transparent; color: #e53539;}
+
+
+}
+
+/*--------------------------------------------------------------------------*/
+/* small tablet mobile */
+@media (max-width: 680px) {
+
+	/* general typography */
+	a.bnt, a div.bnt, div.bnt {font-size: 1.25rem;}
+	p, pre, .subhead, #contactform input {font-size: 1rem;}
+	h1, h2, h3, h4 {font-size: 15vw;}
+	h1.super {font-size: 20vw;}
+	.flex-direction-nav {display: none !important;}
+
+	/* standard cover */
+	.page #cover {min-height: auto;}
+	.page #cover .textwrapper {
+		position: relative;
+		left: 0; right: 0; top: 0; bottom: 0;
+		-webkit-transform: none; transform: none;
+		overflow: hidden;
+	}
+
+	/* page headers */
+	.single .posttype-portfolio .pageheader .textwrapper {padding: 0px;}
+	.pageheader .textwrapper h1 {font-size: 10vw;}
+	.pageheader .textwrapper p {text-align: left !important;}
+	
+	/* services */
+	.servicewrapper {margin: 0 1%;width: 48%;}
+	.servicewrapper.last-child {width: 100%;}
+	.servicewrapper.last-child p {width: 75%; margin: 0 auto;}
+
+	/* contact form */
+	#contactform form {padding: 25px 15px 100px;}
+	#contactform > div {margin-top: 50px;}
+	#contactform > div > div {padding: 0 5px;}
+	#contactform form .half { width: 100%; padding: 0;}
+	
+	#contactform div.wpcf7 {margin-top: 50px;}
+	#contactform h1 {margin-bottom: 0; font-size: 15vw;}
+	#contactform .contactclose {right: 10px;}
+	div.submitwrap {width: 90%; padding: 0; bottom: 29px; right: 0; left: 0; margin: auto;}
+	div.wpcf7-mail-sent-ok {width: 90%; padding: 10px 0; margin: -10px 0 0; bottom: 0; right: 0; left: 0; margin: auto;}
+
+	/* portfolio singles */
+		/* cover wrapper */
+		.coverwrapper {background-position: -84% center;}
+
+		/* introduction wrapper */
+		.introductionwrapper {min-height: auto;}
+		.introductionwrapper > .textwrapper {padding: 0 15px;}
+		.introductionwrapper .textwrapper p {font-size: 1rem;}
+		.introductionwrapper .textwrapper p span {top: 0;}
+		.introductionwrapper > .textwrapper {
+			position: relative;
+			top: auto; left: auto;
+			-webkit-transform: none;
+			transform: none;
+		}
+		
+		/* beauty spreads */
+		#beauty.portwrapper .pageheader {padding: 0 15px;}
+		.beautywrapper {padding: 25px 15px;}
+		.beautywrapper.wedgepush {padding: 75px 15px 25px;}
+		.beautywrapper .half {width: 100% !important;}
+		.beautywrapper .half.last-child {padding-top: 25px;}
+		.beautywrapper h1 {font-size: 1.8rem;}
+		.beautywrapper h2 {font-size: 1.5rem;}
+
+		/* website featers || services */
+		.servicewrapper {width: 100% !important; margin-bottom: 50px !important;}
+		.servicewrapper p {max-width: 500px; margin: 0 auto;}
+
+		/* postlinkwrapper */
+		.postlinkwrapper h3 {font-size: 2rem;}
+		.postlinkwrapper > div, .postlinkwrapper .decoration {display: none;}
+		.postlinkwrapper span {display: block;}
+
+		/* project footer */
+		.coverwrapper.footerholder {display: none;}
+
+	/* home page proficiencies */
+	.proficiencywrapper {
+		width: 100%;
+		padding-left: 0%;
+		margin-bottom: 25px;
+	}
+	.proficiencywrapper ul li {
+		width: 49%;
+		display: inline-block;
+		margin-right: 1%;
+	}
+	.proficiencywrapper ul li:nth-of-type(even) {margin: 0;}
+
+}
+
+
+
+
+/*--------------------------------------------------------------------------*/
+/* portrait mobile */
+@media (max-width: 460px) {
+
+	/* general typography */
+	h1, h2, h3, h4 {font-size: 15vw;}
+	h1.super {font-size: 18vw;}
+	.home .pageheader .textwrapper h1 {font-size: 3.5rem;}
+
+	/* navigation */
+
+	/* SECTIONS - half */
+	.pageblock.half {width: 100%;}
+	.pageblock .textwrapper {padding: 25px;}
+	.pageblock .textwrapper p.super {font-size: 7vw;}
+
+	/* about */
+	#aboutblocks .half.pageblock {min-height: auto !important;}
+
+	/* services */
+	#services h1 {font-size: 2.7rem;}
+	.servicewrapper {margin: 0 1%;width: 100%;}
+	.servicewrapper.last-child p {width: 100%;}
+
+	/* portfolio items */
+	.port-wrapper {width: 100%; }
+	.port-wrapper .port-textwrapper {padding: 15px 10px;}
+	.port-wrapper h1 {font-size: 10vw; width: 100%; padding: 0px 0px; }
+
+	/* postlinkwrapper */
+	.postlinkwrapper h3 {font-size: 1.6rem;}
+	
+	/* footer */
+	nav[role="footer-nav"] {margin-bottom: 5px;}
+	nav[role="footer-nav"], footer .copyright {display: block; width: 100%; text-align: center;}
+
+	/* home page proficiencies */
+	.proficiencywrapper ul li {
+		width: 100%;
+		display: inline-block;
+		margin-right: 0%;
+	}
+
+}
+
+/*--------------------------------------------------------------------------*/
+/* Both Width & Height Changes  */
+@media (max-height: 300px) and (max-width: 700px) {
+	
+	/* single cover */
+	.coverwrapper .textwrapper {
+		position: relative;
+		padding: 50px 0;
+		left: 0; right: 0; top: 0; bottom: 0;
+		-webkit-transform: none; transform: none;
+	}
+	
+	/* beauty wrappers */
+	.beautywrapper p {
+		max-width: 100%;
+	}
+}
+
+
+
+
